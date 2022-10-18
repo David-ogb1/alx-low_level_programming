@@ -4,7 +4,6 @@
  * main - prints all possible different combinations of two digits.
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int ones = '0';
@@ -24,7 +23,7 @@ int main(void)
 					putchar(tens);
 					putchar(ones);
 					if (!(ones == '9' && hundreds == '7' &&
-					      tens == '8'))/*addes comma and space*/
+			                    tens == '8'))/*addes comma and space*/
 					{
 						putchar(',');
 						putchar(' ');
@@ -32,6 +31,7 @@ int main(void)
 				}
 			}
 		}
+
 	}
 	putchar('\n');
 	return (0);
